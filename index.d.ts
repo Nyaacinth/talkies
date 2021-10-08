@@ -1,3 +1,11 @@
+/**
+ * Talkies
+ * @description A simple messagebox system for LÖVE, a rewrite of Moan.lua
+ * @link https://github.com/Nyaacinth/talkies
+ * @version 0.2.1
+ * @author tanema
+ * @license MIT
+ */
 declare namespace talkies {
     /**
      * Create a new dialog of messages and return that dialog
