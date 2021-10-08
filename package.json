@@ -1,0 +1,13 @@
+{
+  "name": "talkies",
+  "version": "0.0.2",
+  "description": "Talkies Messagebox System",
+  "main": "index",
+  "types": "index",
+  "repository": "https://github.com/Nyaacinth/talkies",
+  "author": "tanema",
+  "license": "MIT",
+  "dependencies": {
+    "love-typescript-definitions": "^0.24.0"
+  }
+}
