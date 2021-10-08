@@ -483,6 +483,10 @@ function Talkies.onAction()
   end
 end
 
+function Talkies.getCurrent()
+  return Talkies.dialogs:peek()
+end
+
 function Talkies.clearMessages()
   Talkies.dialogs = Fifo.new()
 end

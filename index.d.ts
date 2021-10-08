@@ -51,6 +51,12 @@ declare namespace talkies {
     function onAction(): void
 
     /**
+     * Get current showing dialog, if none return undefined
+     * @noSelf
+     */
+    function getCurrent(): import("./TalkiesDialog").TalkiesDialog | undefined
+
+    /**
      * Return true if talkies currently drawing dialogs
      * @noSelf
      */
