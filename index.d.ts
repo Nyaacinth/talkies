@@ -7,7 +7,7 @@ declare namespace talkies {
      * @returns Dialog Object
      * @noSelf
      */
-    function say(title: string, messages: string | string[], config: Partial<import("./TalkiesConfig").TalkiesConfig>): import("./TalkiesDialog").TalkiesDialog
+    function say(title: string, messages: string | string[], config?: Partial<import("./TalkiesConfig").TalkiesConfig>): import("./TalkiesDialog").TalkiesDialog
 
     /**
      * Update the UI with the `dt` and animate the typing
