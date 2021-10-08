@@ -1,6 +1,6 @@
 {
   "name": "talkies",
-  "version": "0.0.2.1",
+  "version": "0.0.2",
   "description": "Talkies Messagebox System",
   "main": "index",
   "types": "index",
